@@ -1,0 +1,49 @@
+.send{
+    height: 400px;
+    width: 600px;
+    background-color: cadetblue;
+    margin: 40px auto;
+    border-radius: 25px;
+}
+.send h2{
+    padding: 20px;
+    font-size: 35px;
+    color: black;
+    margin: 0;
+}
+.send form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    gap: 15px;
+}
+input{
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+textarea{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+button{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    
+}
+.update{
+    height: 450px;
+}
+.delete{
+    height: 210px;
+}
